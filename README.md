@@ -102,7 +102,6 @@ docs/
 
 Example:
 
-md
 ## Home
 
 <img width="1871" height="838" alt="image" src="https://github.com/user-attachments/assets/98f04272-1ddc-47fc-86f0-0fcff1fdc546" />
