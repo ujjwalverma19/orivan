@@ -2,12 +2,6 @@
 
 > **Discover the real decisions, setbacks, and turning points behind exceptional people.**
 
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
-![TanStack Start](https://img.shields.io/badge/TanStack-Start-FF4154)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare)
-![MIT License](https://img.shields.io/badge/License-MIT-green)
-
 ## 🌐 Live Demo
 
 **https://orivan.online**
@@ -111,19 +105,20 @@ Example:
 ```md
 ## Home
 
-![Home](docs/screenshots/home.png)
+<img width="1871" height="838" alt="image" src="https://github.com/user-attachments/assets/98f04272-1ddc-47fc-86f0-0fcff1fdc546" />
 
 ## Journey
 
-![Journey](docs/screenshots/journey.png)
+<img width="1877" height="822" alt="image" src="https://github.com/user-attachments/assets/2291e4dc-5c62-4dcd-9dfd-4e30be8edb07" />
 
 ## Collections
 
-![Collections](docs/screenshots/collection.png)
+<img width="1882" height="851" alt="image" src="https://github.com/user-attachments/assets/39cba820-a0f4-441a-88cb-37cd94906efd" />
 
 ## Search
 
-![Search](docs/screenshots/search.png)
+<img width="1860" height="813" alt="image" src="https://github.com/user-attachments/assets/759b58a1-f22c-42e8-9b22-28cd68916e8c" />
+
 ```
 
 ---
