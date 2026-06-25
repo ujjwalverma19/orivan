@@ -102,7 +102,7 @@ docs/
 
 Example:
 
-```md
+md
 ## Home
 
 <img width="1871" height="838" alt="image" src="https://github.com/user-attachments/assets/98f04272-1ddc-47fc-86f0-0fcff1fdc546" />
@@ -119,7 +119,7 @@ Example:
 
 <img width="1860" height="813" alt="image" src="https://github.com/user-attachments/assets/759b58a1-f22c-42e8-9b22-28cd68916e8c" />
 
-```
+
 
 ---
 
