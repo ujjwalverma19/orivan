@@ -1,0 +1,18 @@
+# Orivan
+
+> Orivan is an editorial discovery platform built around curated journeys of
+> founders, scientists, designers, athletes, writers, and artists. Each
+> journey traces the real path: early decisions, failures, lessons, and the
+> work that followed.
+
+## Pages
+
+- [Home](/): Featured journeys, collections, community stories, and categories.
+- [Collections](/collections): Editorial groupings of journeys by theme.
+- [Paths](/paths): Curated step-by-step learning routes through related journeys.
+- [Community Stories](/stories): First-person stories from builders, makers, and operators.
+- [Search](/search): Full-text search across people, collections, stories, and videos.
+
+## Optional
+
+- [Submit a story](/stories/new): Form to draft a new community story (local-only in MVP).

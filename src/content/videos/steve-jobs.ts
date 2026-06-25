@@ -1,0 +1,125 @@
+import type { VideoInput } from "@/content/schemas";
+
+const videos: VideoInput[] = [
+  {
+    id: "jobs-stanford-2005",
+    personSlug: "steve-jobs",
+    title: "Stanford Commencement Address",
+    kind: "Speech",
+    year: "2005",
+    length: "15 min",
+    youtubeId: "UF8uR6Z6KLc",
+    description:
+      "Three stories about life, love and loss — Jobs at his most personal, delivered to Stanford's graduating class months after his cancer diagnosis.",
+    tags: ["mindset", "career", "purpose", "leadership"],
+    keyTakeaways: [
+      "Follow your curiosity even when the dots don't connect yet.",
+      "You can only connect the dots looking backwards.",
+      "Failure can become an advantage in disguise.",
+      "Build what you genuinely believe in.",
+      "Stay hungry. Stay foolish.",
+    ],
+    difficulty: "Beginner",
+    topics: ["career", "purpose", "mindset"],
+  },
+  {
+    id: "jobs-lost-interview-1995",
+    personSlug: "steve-jobs",
+    title: "The Lost Interview",
+    kind: "Interview",
+    year: "1995",
+    length: "1h 10m",
+    youtubeId: "TRZAJY23xio",
+    description:
+      "A wide-ranging interview filmed during Jobs' NeXT years — candid views on craftsmanship, taste, and what was broken at Apple.",
+    tags: ["product", "design", "craft", "leadership"],
+    keyTakeaways: [
+      "Process is no substitute for thinking.",
+      "Great products require great taste.",
+      "Hire people smarter than you, then get out of their way.",
+      "Most companies forget what made them great.",
+    ],
+    difficulty: "Intermediate",
+    topics: ["product", "craft", "leadership"],
+  },
+  {
+    id: "jobs-iphone-keynote-2007",
+    personSlug: "steve-jobs",
+    title: "Macworld Keynote — iPhone Launch",
+    kind: "Keynote",
+    year: "2007",
+    length: "1h 20m",
+    youtubeId: "vN4U5FqrOdQ",
+    description:
+      "The keynote that redefined consumer technology — three devices in one, unveiled with theatrical timing.",
+    tags: ["product", "launch", "storytelling", "design"],
+    keyTakeaways: [
+      "Structure a launch like a story with a payoff.",
+      "Demo the magic, then explain the engineering.",
+      "Set the bar by comparing to the best, not the average.",
+      "Confidence on stage comes from rehearsal, not improvisation.",
+    ],
+    difficulty: "Intermediate",
+    topics: ["product", "launch", "storytelling"],
+  },
+  {
+    id: "jobs-mit-sloan-1992",
+    personSlug: "steve-jobs",
+    title: "Steve Jobs at MIT Sloan",
+    kind: "Talk",
+    year: "1992",
+    length: "1h 06m",
+    youtubeId: "Gk-9Fd2mEnI",
+    description:
+      "A rare classroom-style talk at MIT during the NeXT era — Jobs walks through what makes great organizations and great products.",
+    tags: ["organization", "product", "strategy"],
+    keyTakeaways: [
+      "Most companies optimize for process; great ones optimize for product.",
+      "Small teams beat large teams when stakes are high.",
+      "Vertical integration enables tighter products.",
+      "Decide what NOT to do.",
+    ],
+    difficulty: "Advanced",
+    topics: ["organization", "strategy"],
+  },
+  {
+    id: "jobs-lost-1984-mac",
+    personSlug: "steve-jobs",
+    title: "The Lost 1984 Video — Introducing the Macintosh",
+    kind: "Keynote",
+    year: "1984",
+    length: "21 min",
+    youtubeId: "2B-XwPjn9YY",
+    description:
+      "A young Jobs unveils the Macintosh to a packed shareholder meeting — the original demo that set the template for every Apple keynote after it.",
+    tags: ["product", "launch", "history"],
+    keyTakeaways: [
+      "Stage a product so the audience feels the magic before the spec sheet.",
+      "Theatre is part of the product when nobody has seen one before.",
+      "A small team can ship a category-defining machine.",
+    ],
+    difficulty: "Beginner",
+    topics: ["product", "launch", "history"],
+  },
+  {
+    id: "jobs-secrets-of-life",
+    personSlug: "steve-jobs",
+    title: "Steve Jobs on the Secrets of Life",
+    kind: "Interview",
+    year: "1994",
+    length: "2 min",
+    youtubeId: "kYfNvmF0Bqw",
+    description:
+      "A short, viral clip from a Santa Clara Valley Historical Association interview — Jobs on poking life and discovering it can be changed.",
+    tags: ["mindset", "agency", "philosophy"],
+    keyTakeaways: [
+      "Everything around you was made by people no smarter than you.",
+      "Once you see that, you can build, change, and shape it.",
+      "Life expands the moment you stop accepting it as given.",
+    ],
+    difficulty: "Beginner",
+    topics: ["mindset", "agency"],
+  },
+];
+
+export default videos;
