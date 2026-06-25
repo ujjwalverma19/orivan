@@ -1,109 +1,264 @@
 # Orivan
 
-> Learn how the world's most interesting people actually got there.
+> **Discover the real decisions, setbacks, and turning points behind exceptional people.**
 
-Orivan is an editorial discovery platform built around curated journeys —
-52 in-depth profiles of founders, scientists, designers, athletes, writers,
-and artists. Each journey traces the real path: the early decisions, the
-failures, the lessons, and the work that followed.
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TanStack Start](https://img.shields.io/badge/TanStack-Start-FF4154)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
 
-This is not a quotes site. It is a quiet, well-paced reading experience
-designed for people who want to understand how things actually get made.
+## 🌐 Live Demo
 
----
-
-## Why Orivan
-
-Most learning platforms optimize for completion. Orivan optimizes for
-attention. The product is built around three ideas:
-
-- **Journeys, not bios.** Each profile is a structured timeline of
-  milestones, failures, and the lessons that came out of them.
-- **Discovery over search.** Collections, curated videos, and a
-  Question Explorer surface adjacent paths the reader did not know to ask for.
-- **Editorial tone.** No motivational fluff, no AI-generated summaries.
-  Every page reads like it was written by a person.
+**https://orivan.online**
 
 ---
 
-## Features
+## Overview
 
-- 52 curated journeys across founders, designers, scientists, writers,
-  athletes, and creators
-- Interactive Question Explorer for navigating a journey by the questions
-  it answers
-- Editorial Collections that group journeys by theme
-- 20 first-person Community Stories with a rotating homepage selection
-- Curated YouTube video library per person, with a focused viewer
-- Full-text Search across people, collections, stories, and videos
-- "Continue Exploring" related-content suggestions on every leaf page
-- Responsive, accessible UI with semantic HTML and keyboard support
+Orivan is an editorial discovery platform built around carefully curated journeys of founders, scientists, designers, athletes, writers, artists, and creators.
+
+Instead of celebrating success, Orivan explores the path behind it—early decisions, failures, experiments, and the lessons that shaped remarkable people.
+
+This isn't a quotes website or a collection of motivational snippets. It is a calm, editorial reading experience designed for people who want to understand **how exceptional work actually gets built.**
 
 ---
 
-## Screenshots
+# Product Vision
 
-> _Add screenshots to `docs/screenshots/` and reference them here before
-> publishing the repository._
+Most biographies celebrate success.
+
+**Orivan studies the journey.**
+
+Instead of collecting achievements, Orivan maps the decisions, failures, experiments, and turning points that shaped extraordinary people.
+
+The goal is to help readers recognize patterns they can apply to their own careers and lives.
+
+---
+
+# Why Orivan
+
+Most learning platforms optimize for completion.
+
+**Orivan optimizes for attention.**
+
+The product is built around three simple principles.
+
+### Journeys, not biographies
+
+Every profile is a structured timeline of milestones, failures, decisions, and lessons.
+
+### Discovery over search
+
+Collections, related journeys, videos, and the Question Explorer help readers discover ideas they didn't know to search for.
+
+### Editorial quality
+
+No motivational fluff.
+
+No generic summaries.
+
+Every page is written in a calm editorial voice focused on clarity and depth.
+
+---
+
+# Highlights
+
+* Curated editorial journeys
+* Interactive Question Explorer
+* Editorial Collections
+* Community Stories
+* Curated YouTube learning library
+* Full-text search
+* Continue Exploring recommendations
+* Responsive design
+* Accessibility-first
+* SEO optimized
+* Server-side rendering (SSR)
+
+---
+
+# Features
+
+* Curated journeys across founders, scientists, designers, writers, athletes, artists, and creators
+* Interactive Question Explorer
+* Editorial Collections organized by themes
+* Growing collection of Community Stories
+* Curated YouTube videos for every journey
+* Full-text search across people, stories, collections, and videos
+* Continue Exploring recommendations
+* Responsive UI
+* Keyboard accessibility
+* Structured metadata and rich SEO
+
+---
+
+# Screenshots
+
+> Add screenshots before publishing.
 
 ```
-docs/screenshots/
-  home.png
-  journey.png
-  collection.png
-  search.png
+docs/
+└── screenshots/
+    ├── home.png
+    ├── journey.png
+    ├── collection.png
+    └── search.png
+```
+
+Example:
+
+```md
+## Home
+
+![Home](docs/screenshots/home.png)
+
+## Journey
+
+![Journey](docs/screenshots/journey.png)
+
+## Collections
+
+![Collections](docs/screenshots/collection.png)
+
+## Search
+
+![Search](docs/screenshots/search.png)
 ```
 
 ---
 
-## Tech Stack
+# Tech Stack
 
-- **Framework:** [TanStack Start](https://tanstack.com/start) (React 19, SSR)
-- **Bundler:** Vite 7
-- **Routing:** TanStack Router (file-based)
-- **Styling:** Tailwind CSS v4 + shadcn/ui primitives (Radix UI)
-- **Forms & validation:** React Hook Form + Zod
-- **Icons:** lucide-react
-- **Data fetching:** TanStack Query
-- **Runtime target:** Cloudflare Workers (edge)
-- **Package manager:** Bun
+| Category        | Technology                      |
+| --------------- | ------------------------------- |
+| Framework       | TanStack Start (React 19 + SSR) |
+| Language        | TypeScript                      |
+| Bundler         | Vite 7                          |
+| Routing         | TanStack Router                 |
+| Styling         | Tailwind CSS v4                 |
+| UI              | shadcn/ui + Radix UI            |
+| Forms           | React Hook Form                 |
+| Validation      | Zod                             |
+| Icons           | Lucide React                    |
+| Data Fetching   | TanStack Query                  |
+| Runtime         | Cloudflare Workers              |
+| Package Manager | Bun                             |
 
 ---
 
-## Project Architecture
+# Performance
 
-Orivan is a static-first, content-driven app. All editorial content lives
-as typed TypeScript modules under `src/content/`, validated at load time
-with Zod schemas. Routes are file-based; pages are rendered on the server
-and hydrated on the client.
+Orivan is optimized for speed and readability.
+
+* Optimized WebP images
+* Lazy-loaded below-the-fold sections
+* Responsive image loading
+* Route-level code splitting
+* Server-side rendering
+* Edge deployment
+* Optimized metadata
+* Fast initial render
+* Minimal layout shift
+
+---
+
+# Search Experience
+
+Users can search across:
+
+* People
+* Stories
+* Collections
+* Videos
+
+Instead of simply returning names, Orivan encourages discovery through related journeys and connected ideas.
+
+---
+
+# SEO
+
+Built with modern SEO best practices.
+
+* Server-side rendering
+* Open Graph metadata
+* Twitter Cards
+* Canonical URLs
+* robots.txt
+* sitemap.xml
+* JSON-LD structured data
+* Social sharing images
+
+---
+
+# Design Philosophy
+
+Orivan follows a quiet editorial design language inspired by premium reading experiences.
+
+Core principles:
+
+* Typography before decoration
+* Calm interactions
+* Fast loading
+* Minimal distractions
+* Human-centered storytelling
+* Accessibility by default
+
+---
+
+# Project Architecture
+
+Orivan is a static-first, content-driven application.
+
+Editorial content lives as strongly typed TypeScript modules validated using Zod before becoming part of the application.
 
 ```
 src/
-  components/        Reusable UI: cards, sections, journey pieces, shadcn primitives
-  routes/            File-based routes (pages and route handlers)
-  content/           Editorial source-of-truth (people, videos, collections, stories)
-    people/
-    videos/
-    collections/
-    stories/
-    schemas/         Zod schemas for every content type
-    registry.ts      Loads and validates content at startup
-  lib/               Domain logic: search, discovery, related content, rotation
-  hooks/             Reusable React hooks
-  data/              Derived data layer over the content registry
-  assets/            Bundled images (WebP)
-  styles.css         Tailwind v4 theme tokens and global styles
-public/              Static assets served as-is
+│
+├── assets/
+│
+├── components/
+│
+├── content/
+│   ├── people/
+│   ├── collections/
+│   ├── stories/
+│   ├── videos/
+│   ├── schemas/
+│   └── registry.ts
+│
+├── data/
+│
+├── hooks/
+│
+├── lib/
+│
+├── routes/
+│
+└── styles.css
+
+public/
 ```
 
 ---
 
-## Local Development
+# Engineering Principles
 
-### Prerequisites
+* Type-safe content
+* Component-driven architecture
+* Reusable UI primitives
+* Static-first rendering
+* Editorial content validation
+* Accessibility-first development
 
-- [Bun](https://bun.sh) 1.1 or newer
-- Node-compatible runtime (Bun handles this)
+---
+
+# Local Development
+
+## Prerequisites
+
+* Bun 1.1+
+* Node-compatible runtime
 
 ### Install
 
@@ -117,73 +272,135 @@ bun install
 bun run dev
 ```
 
-The app starts on `http://localhost:8080`.
+The application starts at:
 
-### Environment variables
+```
+http://localhost:8080
+```
 
-Copy `.env.example` to `.env.local` and adjust as needed:
+---
+
+# Environment Variables
+
+Copy:
 
 ```bash
 cp .env.example .env.local
 ```
 
-Orivan has no required secrets — the project ships with all content
-inlined. The only optional variable is `VITE_SITE_URL`, used for canonical
-links and Open Graph metadata in production.
+Optional:
+
+```
+VITE_SITE_URL=https://orivan.online
+```
+
+Used for canonical URLs and Open Graph metadata.
 
 ---
 
-## Production Build
+# Production Build
 
 ```bash
 bun run build
+```
+
+Preview:
+
+```bash
 bun run preview
 ```
 
-`bun run build` produces an edge-ready bundle under `.output/`.
-`bun run preview` serves the production build locally for verification.
+Production output:
+
+```
+.output/
+```
 
 ---
 
-## Deployment
+# Deployment
 
-Orivan targets Cloudflare Workers by default and can be deployed to any
-platform that supports the TanStack Start edge runtime.
+Orivan targets Cloudflare Workers by default.
 
-1. Run `bun run build`.
-2. Deploy `.output/` using your platform's standard flow
-   (Cloudflare Pages, Wrangler, or any compatible host).
-3. Set `VITE_SITE_URL` in the platform's environment configuration if you
-   want absolute canonical URLs in metadata.
+Deployment steps:
 
----
+1. Build the project
 
-## Contributing
+```bash
+bun run build
+```
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for the project philosophy,
-branch and commit conventions, and pull request expectations.
+2. Deploy the generated `.output/` directory.
 
----
+3. Configure:
 
-## Roadmap
-
-- Reader-submitted Community Stories with editorial review
-- Saved journeys and personal reading lists
-- Per-collection long-form essays
-- Internationalization (English first, more to follow)
-- Print-friendly journey exports
+```
+VITE_SITE_URL=https://orivan.online
+```
 
 ---
 
-## License
+# Contributing
 
-Released under the [MIT License](./LICENSE).
+See **CONTRIBUTING.md** for:
+
+* Branch naming
+* Commit conventions
+* Pull request expectations
+* Editorial guidelines
+* Project philosophy
 
 ---
 
-## Author
+# Roadmap
 
-Built by **Ujjwal Verma**.
+* Reader-submitted Community Stories
+* Saved reading lists
+* AI-assisted journey recommendations
+* Collection essays
+* Internationalization
+* Print-friendly journeys
+* Accessibility improvements
+* Performance optimizations
+
+---
+
+# Acknowledgements
+
+Built with:
+
+* React
+* TanStack Start
+* Vite
+* Tailwind CSS
+* shadcn/ui
+* Radix UI
+* Cloudflare Workers
+* Bun
+
+---
+
+# License
+
+Released under the **MIT License**.
+
+See **LICENSE** for details.
+
+---
+
+# Author
+
+**Ujjwal Verma**
+
+* 🌐 Website: https://orivan.online
+* GitHub: https://github.com/ujjwalverma19
+* LinkedIn: https://www.linkedin.com/in/ujjwalv19
+* X: https://x.com/UJJWALV75382953
+
+---
+
+If you enjoyed Orivan or found it useful, consider giving the repository a ⭐.
+
 
 - GitHub — [@ujjwalverma19](https://github.com/ujjwalverma19)
 - LinkedIn — [ujjwalv19](https://www.linkedin.com/in/ujjwalv19/)
