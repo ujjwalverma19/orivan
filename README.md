@@ -34,7 +34,7 @@ For the MVP, I intentionally kept all content static instead of introducing a ba
 
 This reduced complexity, improved loading performance, and allowed me to focus on validating the reading experience before building content management features.
 
----
+--
 
 # Why Orivan
 
