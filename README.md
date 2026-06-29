@@ -28,13 +28,14 @@ Instead of collecting achievements, Orivan maps the decisions, failures, experim
 
 The goal is to help readers recognize patterns they can apply to their own careers and lives.
 
+
 ## Design Trade-offs
 
 For the MVP, I intentionally kept all content static instead of introducing a backend.
 
 This reduced complexity, improved loading performance, and allowed me to focus on validating the reading experience before building content management features.
 
---
+---
 
 # Why Orivan
 
